@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+    <style type="text/css">
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/basic.css" />
+    <!--<link rel="stylesheet" type="text/css" href="css/dropzone.css" />-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/dropzone.js"></script>
+
+</head>
+<body >
+
+<div class="container" >
+
+    <form action="upload.php" class="dropzone"></form>
+    <div class="dropzone"></div>
+
+    <button id="startUpload">UPLOAD</button>
+</div>
+
+<script>
+    //Disabling autoDiscover
+    Dropzone.autoDiscover = false;
+
+    $(function() {
+        //Dropzone class
+        var myDropzone = new Dropzone(".dropzone", {
+            url: "upload.php",
+            paramName: "file",
+            maxFilesize: 2,
+            maxFiles: 10,
+            acceptedFiles: "image/*,application/pdf"
+        });
+    });
+</script>
+
+</body>
+</html>
