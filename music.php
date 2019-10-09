@@ -104,6 +104,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             </ul>
                         </div>
                     </div>
+
                     <div class="col-md-3 resent-grid recommended-grid movie-video-grid">
                         <div class="resent-grid-img recommended-grid-img">
                             <a href="single.php"><img src="images/mv4.jpg" alt=""/></a>
@@ -122,139 +123,141 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             </ul>
                         </div>
                     </div>
+
                     <div class="clearfix"></div>
+
                 </div>
             </div>
 
-            <div class="recommended">
-                <div class="recommended-grids">
-                    <div class="recommended-info">
-                        <div class="heading">
-                            <h3>Luganda</h3>
-                        </div>
-                        <div class="heading-right">
-                            <a href="#small-dialog8" class="play-icon popup-with-zoom-anim">Subscribe</a>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                    <div class="col-md-3 resent-grid recommended-grid movie-video-grid">
-                        <div class="resent-grid-img recommended-grid-img">
-                            <a href="single.php"><img src="images/tm1.jpg" alt=""/></a>
-                            <div class="time small-time show-time movie-time">
-                                <p>5:32</p>
-                            </div>
-                            <div class="clck movie-clock">
-                                <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
-                            </div>
-                        </div>
-                        <div class="resent-grid-info recommended-grid-info recommended-grid-movie-info">
-                            <h5><a href="single.php" class="title">Varius sit sed viverra Nullam interdum metus</a></h5>
-                            <ul>
-                                <li><p class="author author-info"><a href="#" class="author">Christian</a></p></li>
-                                <li class="right-list"><p class="views views-info">2,114,200 views</p></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 resent-grid recommended-grid movie-video-grid">
-                        <div class="resent-grid-img recommended-grid-img">
-                            <a href="single.php"><img src="images/tm2.jpg" alt=""/></a>
-                            <div class="time small-time show-time movie-time">
-                                <p>2:34</p>
-                            </div>
-                            <div class="clck movie-clock">
-                                <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
-                            </div>
-                        </div>
-                        <div class="resent-grid-info recommended-grid-info recommended-grid-movie-info">
-                            <h5><a href="single.php" class="title">Varius sit sed viverra Nullam interdum metus</a></h5>
-                            <ul>
-                                <li><p class="author author-info"><a href="#" class="author">Christian</a></p></li>
-                                <li class="right-list"><p class="views views-info">2,114,200 views</p></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 resent-grid recommended-grid movie-video-grid movie-video-grid-left">
-                        <div class="resent-grid-img recommended-grid-img">
-                            <a href="single.php"><img src="images/tm3.jpg" alt=""/></a>
-                            <div class="time small-time show-time movie-time">
-                                <p>8:26</p>
-                            </div>
-                            <div class="clck movie-clock">
-                                <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
-                            </div>
-                        </div>
-                        <div class="resent-grid-info recommended-grid-info recommended-grid-movie-info">
-                            <h5><a href="single.php" class="title">Varius sit sed viverra Nullam interdum metus</a></h5>
-                            <ul>
-                                <li><p class="author author-info"><a href="#" class="author">Christian</a></p></li>
-                                <li class="right-list"><p class="views views-info">2,114,200 views</p></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 resent-grid recommended-grid movie-video-grid movie-video-grid-right">
-                        <div class="resent-grid-img recommended-grid-img">
-                            <a href="single.php"><img src="images/tm4.jpg" alt=""/></a>
-                            <div class="time small-time show-time movie-time">
-                                <p>3:44</p>
-                            </div>
-                            <div class="clck movie-clock">
-                                <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
-                            </div>
-                        </div>
-                        <div class="resent-grid-info recommended-grid-info recommended-grid-movie-info">
-                            <h5><a href="single.php" class="title">Varius sit sed viverra Nullam interdum metus</a></h5>
-                            <ul>
-                                <li><p class="author author-info"><a href="#" class="author">Christian</a></p></li>
-                                <li class="right-list"><p class="views views-info">2,114,200 views</p></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
+<!--            <div class="recommended">-->
+<!--                <div class="recommended-grids">-->
+<!--                    <div class="recommended-info">-->
+<!--                        <div class="heading">-->
+<!--                            <h3>Luganda</h3>-->
+<!--                        </div>-->
+<!--                        <div class="heading-right">-->
+<!--                            <a href="#small-dialog8" class="play-icon popup-with-zoom-anim">Subscribe</a>-->
+<!--                        </div>-->
+<!--                        <div class="clearfix"></div>-->
+<!--                    </div>-->
+<!--                    <div class="col-md-3 resent-grid recommended-grid movie-video-grid">-->
+<!--                        <div class="resent-grid-img recommended-grid-img">-->
+<!--                            <a href="single.php"><img src="images/tm1.jpg" alt=""/></a>-->
+<!--                            <div class="time small-time show-time movie-time">-->
+<!--                                <p>5:32</p>-->
+<!--                            </div>-->
+<!--                            <div class="clck movie-clock">-->
+<!--                                <span class="glyphicon glyphicon-time" aria-hidden="true"></span>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="resent-grid-info recommended-grid-info recommended-grid-movie-info">-->
+<!--                            <h5><a href="single.php" class="title">Varius sit sed viverra Nullam interdum metus</a></h5>-->
+<!--                            <ul>-->
+<!--                                <li><p class="author author-info"><a href="#" class="author">Christian</a></p></li>-->
+<!--                                <li class="right-list"><p class="views views-info">2,114,200 views</p></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-md-3 resent-grid recommended-grid movie-video-grid">-->
+<!--                        <div class="resent-grid-img recommended-grid-img">-->
+<!--                            <a href="single.php"><img src="images/tm2.jpg" alt=""/></a>-->
+<!--                            <div class="time small-time show-time movie-time">-->
+<!--                                <p>2:34</p>-->
+<!--                            </div>-->
+<!--                            <div class="clck movie-clock">-->
+<!--                                <span class="glyphicon glyphicon-time" aria-hidden="true"></span>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="resent-grid-info recommended-grid-info recommended-grid-movie-info">-->
+<!--                            <h5><a href="single.php" class="title">Varius sit sed viverra Nullam interdum metus</a></h5>-->
+<!--                            <ul>-->
+<!--                                <li><p class="author author-info"><a href="#" class="author">Christian</a></p></li>-->
+<!--                                <li class="right-list"><p class="views views-info">2,114,200 views</p></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-md-3 resent-grid recommended-grid movie-video-grid movie-video-grid-left">-->
+<!--                        <div class="resent-grid-img recommended-grid-img">-->
+<!--                            <a href="single.php"><img src="images/tm3.jpg" alt=""/></a>-->
+<!--                            <div class="time small-time show-time movie-time">-->
+<!--                                <p>8:26</p>-->
+<!--                            </div>-->
+<!--                            <div class="clck movie-clock">-->
+<!--                                <span class="glyphicon glyphicon-time" aria-hidden="true"></span>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="resent-grid-info recommended-grid-info recommended-grid-movie-info">-->
+<!--                            <h5><a href="single.php" class="title">Varius sit sed viverra Nullam interdum metus</a></h5>-->
+<!--                            <ul>-->
+<!--                                <li><p class="author author-info"><a href="#" class="author">Christian</a></p></li>-->
+<!--                                <li class="right-list"><p class="views views-info">2,114,200 views</p></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-md-3 resent-grid recommended-grid movie-video-grid movie-video-grid-right">-->
+<!--                        <div class="resent-grid-img recommended-grid-img">-->
+<!--                            <a href="single.php"><img src="images/tm4.jpg" alt=""/></a>-->
+<!--                            <div class="time small-time show-time movie-time">-->
+<!--                                <p>3:44</p>-->
+<!--                            </div>-->
+<!--                            <div class="clck movie-clock">-->
+<!--                                <span class="glyphicon glyphicon-time" aria-hidden="true"></span>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="resent-grid-info recommended-grid-info recommended-grid-movie-info">-->
+<!--                            <h5><a href="single.php" class="title">Varius sit sed viverra Nullam interdum metus</a></h5>-->
+<!--                            <ul>-->
+<!--                                <li><p class="author author-info"><a href="#" class="author">Christian</a></p></li>-->
+<!--                                <li class="right-list"><p class="views views-info">2,114,200 views</p></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="clearfix"></div>-->
+<!--                </div>-->
+<!--            </div>-->
         </div>
         <div class="col-md-2 show-grid-right">
-            <h3>Related Music</h3>
+            <h3>Categories</h3>
             <div class="show-right-grids">
                 <ul>
                     <li class="tv-img"><a href="#"><img src="images/mv.png" alt=""/></a></li>
-                    <li><a href="#">English Movies</a></li>
+                    <li><a href="music">Music</a></li>
                 </ul>
             </div>
             <div class="show-right-grids">
                 <ul>
                     <li class="tv-img"><a href="#"><img src="images/mv.png" alt=""/></a></li>
-                    <li><a href="#">Chinese Movies</a></li>
+                    <li><a href="gossip">Gossip</a></li>
                 </ul>
             </div>
             <div class="show-right-grids">
                 <ul>
                     <li class="tv-img"><a href="#"><img src="images/mv.png" alt=""/></a></li>
-                    <li><a href="#">Hindi Movies</a></li>
+                    <li><a href="sports">Sports</a></li>
                 </ul>
             </div>
             <div class="show-right-grids">
                 <ul>
                     <li class="tv-img"><a href="#"><img src="images/mv.png" alt=""/></a></li>
-                    <li><a href="#">Telugu Movies</a></li>
+                    <li><a href="fashion">Fashion</a></li>
                 </ul>
             </div>
             <div class="show-right-grids">
                 <ul>
                     <li class="tv-img"><a href="#"><img src="images/mv.png" alt=""/></a></li>
-                    <li><a href="#">Tamil Movies</a></li>
+                    <li><a href="tech">Tech</a></li>
                 </ul>
             </div>
             <div class="show-right-grids">
                 <ul>
                     <li class="tv-img"><a href="#"><img src="images/mv.png" alt=""/></a></li>
-                    <li><a href="#">Kannada Movies</a></li>
+                    <li><a href="travel">Travel</a></li>
                 </ul>
             </div>
             <div class="show-right-grids">
                 <ul>
                     <li class="tv-img"><a href="#"><img src="images/mv.png" alt=""/></a></li>
-                    <li><a href="#">Marathi movies</a></li>
+                    <li><a href="culture">Culture</a></li>
                 </ul>
             </div>
         </div>

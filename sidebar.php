@@ -34,9 +34,9 @@
                             class="glyphicon glyphicon-heart-empty"
                             aria-hidden="true"></span>Culture</a></li>
 
-            <li class="<?php echo $page == 'about' ? 'active' : ''; ?>"><a href="about.php" class=""><span
-                            class="glyphicon glyphicon-home glyphicon-list"
-                            aria-hidden="true"></span>About Us</a></li>
+<!--            <li class="--><?php //echo $page == 'about' ? 'active' : ''; ?><!--"><a href="about.php" class=""><span-->
+<!--                            class="glyphicon glyphicon-home glyphicon-list"-->
+<!--                            aria-hidden="true"></span>About Us</a></li>-->
 
             <li class="<?php echo $page == 'contact' ? 'active' : ''; ?>"><a href="contact.php" class="sub-icon"><span
                             class="glyphicon glyphicon-home glyphicon-comment"

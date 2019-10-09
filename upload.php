@@ -183,30 +183,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="small-dialog6" class="mfp-hide">
-                        <div class="video-information-text">
-                            <h4>Video information & settings</h4>
-                            <p>Suspendisse tristique magna ut urna pellentesque, ut egestas velit faucibus. Nullam
-                                mattis lectus ullamcorper dui dignissim, sit amet egestas orci ullamcorper.</p>
-                            <ol>
-                                <li>Nunc vitae rutrum enim. Mauris at volutpat leo. Vivamus dapibus mi ut elit fermentum
-                                    tincidunt.
-                                </li>
-                                <li>Nunc vitae rutrum enim. Mauris at volutpat leo. Vivamus dapibus mi ut elit fermentum
-                                    tincidunt.
-                                </li>
-                                <li>Nunc vitae rutrum enim. Mauris at volutpat leo. Vivamus dapibus mi ut elit fermentum
-                                    tincidunt.
-                                </li>
-                                <li>Nunc vitae rutrum enim. Mauris at volutpat leo. Vivamus dapibus mi ut elit fermentum
-                                    tincidunt.
-                                </li>
-                                <li>Nunc vitae rutrum enim. Mauris at volutpat leo. Vivamus dapibus mi ut elit fermentum
-                                    tincidunt.
-                                </li>
-                            </ol>
-                        </div>
-                    </div>
+
                     <script>
                         $(document).ready(function () {
                             $('.popup-with-zoom-anim').magnificPopup({
@@ -258,7 +235,7 @@
                 <div class="clearfix"></div>
             </div>
         </div>
-        <div class="clearfix"></div>
+        <!--        <div class="clearfix"></div>-->
     </div>
 </nav>
 <!-- upload -->
@@ -266,68 +243,79 @@
 <div class="upload">
     <!-- container -->
     <div class="container">
-        <div class="upload-grids">
-            <div class="upload-right">
-                <div class="">
-                    <div class="services-icon">
-                        <span class="glyphicon glyphicon-open" aria-hidden="true"></span>
-                    </div>
-
-                </div>
-                <div class="upload-info">
-                    <!--                    <h5>Select files to upload</h5>-->
-                    <!--                    <span>or</span>-->
-                    <!--                    <p>Drag and drop files</p>-->
-                    <div class="col-md-6 col-md-offset-3">
-
-
-                        <form id="upload_form" enctype="multipart/form-data" method="post">
-                            <div class="form-group">
-                                <div class=""><input type="text" class="form-control" id="uname" name="uname"
-                                                     placeholder="Name"></div>
-                                <div class="error" id="error_name"></div>
-                            </div>
-                            <div class="form-group">
-                                <div class="">
-                                    <input type="file" name="file1" id="file1"><br>
-                                </div>
-                                <div class="error" id="error_name"></div>
-                            </div>
-
-
-
-                            <input type="button" value="Upload File" onclick="uploadFile()">
-
-                            <progress id="progressBar" value="0" max="100" style="width:300px;"></progress>
-                            <h3 id="status"></h3>
-                            <p id="loaded_n_total"></p>
-                        </form>
+        <div class="text-center"><h2>Save a video</h2></div>
+        <div class="col-md-6 col-md-offset-3">
+            <form id="upload_form" enctype="multipart/form-data" method="post">
+                <div class="form-group">
+                    <lable> Select image</lable>
+                    <div class="">
+                        <input type="file" name="file1" id="file1" class="form-control"><br>
                     </div>
                 </div>
-            </div>
+                <div class="form-group">
+                    <lable> Youtube video link</lable>
+                    <div class=""><input type="text" class="form-control" id="title" name="title"
+                                         placeholder="Title"></div>
+                </div>
+                <div class="form-group">
+                    <lable> Title</lable>
+                    <div class=""><input type="text" class="form-control" id="title" name="title"
+                                         placeholder="Title"></div>
+                </div>
+                <div class="form-group">
+                    <lable> Category</lable>
+                    <div class="">
+                        <select class="form-control" name="category" id="category">
+                            <option value="music">Music</option>
+                            <option value="gossip">Gossip</option>
+                            <option value="sports">Sports</option>
+                            <option value="fashion">Fashion</option>
+                            <option value="tech">Tech</option>
+                            <option value="travel">Travel</option>
+                            <option value="culture">Culture</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <lable> Descroption</lable>
+                    <div class=""><input type="text" class="form-control" id="description" name="description"
+                                         placeholder="Description"></div>
+                </div>
+
+                <div class="form-group">
+                    <input type="save" class="btn btn-sm btn-warning" value="Upload File" onclick="uploadFile()">
+                </div>
+
+            </form>
+            <progress id="progressBar" value="0" max="100" style="width:300px;"></progress>
+            <h3 id="status"></h3>
+            <p id="loaded_n_total"></p>
         </div>
+
+        <!--        </div>-->
     </div>
     <!-- //container -->
 </div>
 <!-- //upload -->
 
 <!-- footer -->
-<div class="footer">
-    <div class="container">
-        <div class="footer-top">
-            <div class="footer-top-nav">
-                <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="shows.php">Shows</a></li>
-                    <li><a href="music.php">Music</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                    <li><a href="faqs.php">FAQs</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
+<!--<div class="footer">-->
+<!--    <div class="container">-->
+<!--        <div class="footer-top">-->
+<!--            <div class="footer-top-nav">-->
+<!--                <ul>-->
+<!--                    <li><a href="index.php">Home</a></li>-->
+<!--                    <li><a href="about.php">About</a></li>-->
+<!--                    <li><a href="shows.php">Shows</a></li>-->
+<!--                    <li><a href="music.php">Music</a></li>-->
+<!--                    <li><a href="contact.php">Contact</a></li>-->
+<!--                    <li><a href="faqs.php">FAQs</a></li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 <!-- //footer -->
 <div class="clearfix"></div>
 
@@ -341,15 +329,16 @@
 <script src="assets/js/dropzone.min.js"></script>
 
 <!-- Main JS file -->
-<script src="assets/js/scripts.js"></script>
+<!--<script src="assets/js/scripts.js"></script>-->
 
 <script>
     /* Script written by Adam Khoury @ DevelopPHP.com */
     /* Video Tutorial: http://www.youtube.com/watch?v=EraNFJiY0Eg */
-    function _(el){
+    function _(el) {
         return document.getElementById(el);
     }
-    function uploadFile(){
+
+    function uploadFile() {
         var file = _("file1").files[0];
         // alert(file.name+" | "+file.size+" | "+file.type);
         var formdata = new FormData();
@@ -362,20 +351,24 @@
         ajax.open("POST", "file_upload_parser.php");
         ajax.send(formdata);
     }
-    function progressHandler(event){
-        _("loaded_n_total").innerHTML = "Uploaded "+event.loaded+" bytes of "+event.total;
+
+    function progressHandler(event) {
+        _("loaded_n_total").innerHTML = "Uploaded " + event.loaded + " bytes of " + event.total;
         var percent = (event.loaded / event.total) * 100;
         _("progressBar").value = Math.round(percent);
-        _("status").innerHTML = Math.round(percent)+"% uploaded... please wait";
+        _("status").innerHTML = Math.round(percent) + "% uploaded... please wait";
     }
-    function completeHandler(event){
+
+    function completeHandler(event) {
         _("status").innerHTML = event.target.responseText;
         _("progressBar").value = 0;
     }
-    function errorHandler(event){
+
+    function errorHandler(event) {
         _("status").innerHTML = "Upload Failed";
     }
-    function abortHandler(event){
+
+    function abortHandler(event) {
         _("status").innerHTML = "Upload Aborted";
     }
 </script>

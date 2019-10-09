@@ -109,7 +109,7 @@
         <div class="recommended">
             <div class="recommended-grids">
                 <div class="recommended-info">
-                    <h3>Animated Cartoon</h3>
+                    <h3>Latest Gossip</h3>
                 </div>
                 <script src="js/responsiveslides.min.js"></script>
                 <script>
