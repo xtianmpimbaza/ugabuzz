@@ -1,4 +1,21 @@
-<?php $page = 'about'; ?>
+<?php
+session_start();
+if (isset($_SESSION['ugabuzz_user'])){
+    $visb_signup = 'hidden';
+    $visb_signin = 'hidden';
+
+}else{
+    $visb_signin = '';
+    $visb_signup = '';
+    $logout_btn = 'hidden';
+}
+if (isset($_SESSION['user_type']) && $_SESSION['user_type'] == 1){
+    $upload_btn = '';
+}else{
+    $upload_btn = 'hidden';
+}
+$page = 'about';
+?>
 <!DOCTYPE HTML>
 <html>
 <head>

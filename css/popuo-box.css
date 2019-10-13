@@ -3,7 +3,7 @@
 	background: #FFF;
     padding: 20px;
     text-align: left;
-    max-width: 64%;
+    max-width: 44%;
     margin: 40px auto;
     position: relative;
     text-align: center;
@@ -465,10 +465,10 @@ button::-moz-focus-inner {
 .signup {
     position: relative;
     padding: 2em 0 0 6em;
-    float: right !important;
-    width: 50%;
+    /*float: right !important;*/
+    /*width: 50%;*/
     border-left: solid 1px #E4E4E4;
-    text-align: left;
+    text-align: center;
 }
 .login h3,.signup h3{
 	margin: 0;
@@ -492,7 +492,7 @@ button::-moz-focus-inner {
 	border: 1px solid #a63d56;
 	outline: none !important;
 }
-.signup input[type="text"]{
+.signup input[type="text"], .signup input[type="email"], .signup input[type="number"]{
 	width: 44.5%;
 	padding: 5px;
 	margin: 10px 0;
@@ -501,7 +501,7 @@ button::-moz-focus-inner {
 	background: #EBEBEB;
 	border: solid 1px #222;
 }
-.signup input.email[type="text"],.signup input[type="password"]{
+.signup input[type="text"],.signup input[type="email"],.signup input[type="password"]{
   width: 90%;
   padding: 10px;
   background: #FFF;

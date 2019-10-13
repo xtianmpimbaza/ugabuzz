@@ -69,6 +69,7 @@ form.navbar-form.navbar-right {
   float: right;
 }
 .file {
+    padding-left: 5px;
   float: left;
   margin: 1.1em 0 0 0;
 }
@@ -1630,7 +1631,7 @@ span.glyphicon.glyphicon-user {
 /*-- upload --*/
 .upload {
     padding: 8em 0;
-    background: #F3F3F3;
+    /*background: #F3F3F3;*/
 }
 .upload-right{
 	/*padding-top: 5em;*/
@@ -2763,6 +2764,12 @@ background: url(../images/social.png) no-repeat 0px 0px;
 	}
 }
 
+/*========================== custome classes*/
+.feedback{
+    font-weight: bold;
+    color: red;
+    font-size: 14px;
+}
 /*============================= fAQS*/
 /*h2 {*/
     /*font-family: Arial, Verdana;*/
@@ -2795,4 +2802,3 @@ background: url(../images/social.png) no-repeat 0px 0px;
 /*}*/
 /*.main-grids .panel-default .panel-body {*/
     /*font-size: 1.2rem;*/
-}
